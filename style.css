@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #eaeaea;
 }
 
 /* esse item que não deixa reconhecer como não-ordenada a lista */
@@ -15,7 +17,7 @@ li {
 }
 
 .header-menu {
-
+    
     display: flex;
     position: fixed;
     width: 100%;
@@ -60,10 +62,12 @@ li {
 
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
     width: 100%;
+    
 }
 
 .subcontainer-principal {
@@ -73,13 +77,14 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 
 .nome-completo {
 
     font-size: 36px;
-    color: #ff4dbc;
+    color: #053779;
     font-weight: 700;
     height: 45px;
 }
@@ -93,33 +98,30 @@ li {
 
 .profissao {
 
-    color: #c6b5d5;
+    color: #4b1877;
     line-height: 60px;
 }
 
 .topico-principal {
 
     font-size: 36px;
-    color: #ff4dbc;
-    text-align: center;
-    margin-top: 5px;
+    color: #053779;
+
 }
 
-.article-lista {
+.section-lista {
 
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     flex-direction: column;
+    
 }
 
 .lista-item {
-
     padding: 32px;
 }
 
 .lista-item ul li {
-
     margin-bottom: 32px;
 }
 
@@ -127,7 +129,7 @@ li {
 
     margin-bottom: 5px;
     font-size: 22px;
-    color: #661e4b;
+    color: #053779;
     font-weight: 700;
 }
 
@@ -146,12 +148,70 @@ li {
     font-weight: 300;
 }
 
-.wrapper-portfolio {
+.formacao {
 
     background-color: #eaeaea;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 1px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.projetos {
+
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer {
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.footer {
+
+    background-color: #724796;
+    height: 250px;
+    display: flex;
+    align-items: center;
+
+}
+
+.estilo-icon {
+
+    font-size: 32px;
+    margin-right: 10px;
+
+}
+
+.links {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.lista-footer li {
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.letras-rodape{
+    color: rgb(0, 6, 165)
+}
+
+.imagem-principal{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
