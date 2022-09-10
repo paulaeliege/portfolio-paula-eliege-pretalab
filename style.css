@@ -32,7 +32,6 @@ li {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-
 }
 
 .lista-menu {
@@ -41,7 +40,6 @@ li {
     justify-content: space-evenly;
     width: 50%;
     align-items: center;
-
 }
 
 .lista-menu li>a {
@@ -49,7 +47,6 @@ li {
     color: #fff;
     font-size: 18px;
     text-decoration: inherit;
-
 }
 
 .principal {
@@ -57,8 +54,6 @@ li {
     height: 100vh;
     display: flex;
     background-color: #eaeaea;
-
-
 }
 
 .container {
@@ -78,7 +73,6 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 
 
@@ -117,19 +111,16 @@ li {
     margin-top: 100px;
     margin-bottom: 100px;
     flex-direction: column;
-
 }
 
 .lista-item {
 
     padding: 32px;
-
 }
 
 .lista-item ul li {
 
     margin-bottom: 32px;
-
 }
 
 .lista-titulo {
@@ -138,14 +129,12 @@ li {
     font-size: 22px;
     color: #661e4b;
     font-weight: 700;
-
 }
 
 .lista-local {
 
     font-size: 18px;
     color: #2f80ed;
-
 }
 
 .lista-descricao {
@@ -155,7 +144,6 @@ li {
     line-height: 20px;
     color: #828282;
     font-weight: 300;
-
 }
 
 .wrapper-portfolio {
@@ -166,5 +154,4 @@ li {
     text-align: center;
     margin-top: 1px;
     margin-bottom: 50px;
-
 }
